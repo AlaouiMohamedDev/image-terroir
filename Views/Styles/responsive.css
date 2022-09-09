@@ -1,0 +1,42 @@
+
+@media(max-width:1000px){
+    .topbar{
+        flex-direction: column;
+    }
+    .navbar .container-fluid {
+        padding: 0px 20px;
+    }
+    .navbar-nav .nav-item{
+        margin:0;
+        padding:0;
+    }
+    .navbar .nav-item li{
+        text-align:left !important;
+    }
+    .balance .me-1{
+        display:none;
+    }
+    .balance-alt .me-1{
+        display:none;
+    }
+    .primary{
+        height:max-content;
+        padding-bottom: 50px;
+    }
+    .primary .content h1{
+        font-size:2.8rem;
+        margin-bottom: 15px;
+    }
+    .primary .content p{
+        font-weight: 500;
+    }
+    .primary .content .input{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+   
+    footer .container-fluid .col-lg-4{
+        margin-top:20px;
+    }
+}

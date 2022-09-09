@@ -1,9 +1,9 @@
 <?php 
     session_start();
 
-    if($_SESSION['role']!="admin"){
-      header("Location:http://codata-admin.com/login");
-    }
+    // if($_SESSION['role']!="admin"){
+    //   header("Location:http://codata-admin.com/login");
+    // }
 ?>
 
 <!DOCTYPE html>
